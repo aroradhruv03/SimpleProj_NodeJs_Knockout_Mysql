@@ -1,0 +1,20 @@
+block content
+  h1= title
+  p Welcome to our test to #{title}
+
+  // Wrapper
+  #wrapper
+
+    // USER LIST
+    h2 User List
+    #userList
+      table
+        thead
+          th UserNamxxe
+          th Email
+          th Delete?
+        tbody
+          h1 Hello there!
+          p Welcome to this try
+          -each field in fields
+            p =  item.field

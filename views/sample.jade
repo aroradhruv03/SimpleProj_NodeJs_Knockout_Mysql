@@ -1,0 +1,18 @@
+h1 new user
+    form(method="POST" action="/sample")
+        table
+            tr
+                td User Email:
+                td
+                    input#email(type="email", name="email")
+            tr
+                td Username:
+                td
+                    input#userName(type="text", name="userName")
+            tr
+                td Password:
+                td
+                    input#password(type="password", name="password")
+            tr
+                td
+                    button(type="submit") Create
